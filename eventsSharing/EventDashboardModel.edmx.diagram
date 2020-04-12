@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="92070518d675421fbada73a62b00683f" Name="Diagram1">
+        <EntityTypeShape EntityType="eventBoardDBModel.Events" Width="1.5" PointX="0.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="eventBoardDBModel.Registrations" Width="1.5" PointX="5.375" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="eventBoardDBModel.User" Width="1.5" PointX="0.875" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="eventBoardDBModel.FK_Events_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="eventBoardDBModel.FK_Registrations_Events" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="eventBoardDBModel.FK_Registrations_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
